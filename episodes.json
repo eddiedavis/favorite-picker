@@ -1,0 +1,470 @@
+[
+  {
+    "id": "1a",
+    "name": "Help Wanted"
+  },
+  {
+    "id": "1b",
+    "name": "Reef Blower"
+  },
+  {
+    "id": "1c",
+    "name": "Tea at the Treedome"
+  },
+  {
+    "id": "2a",
+    "name": "Bubblestand"
+  },
+  {
+    "id": "2b",
+    "name": "Ripped Pants"
+  },
+  {
+    "id": "3a",
+    "name": "Jellyfishing"
+  },
+  {
+    "id": "3b",
+    "name": "Plankton!"
+  },
+  {
+    "id": "4a",
+    "name": "Naughty Nautical Neighbors"
+  },
+  {
+    "id": "4b",
+    "name": "Boating School"
+  },
+  {
+    "id": "5a",
+    "name": "Pizza Delivery"
+  },
+  {
+    "id": "5b",
+    "name": "Home Sweet Pineapple"
+  },
+  {
+    "id": "6a",
+    "name": "Mermaid Man and Barnacle Boy"
+  },
+  {
+    "id": "6b",
+    "name": "Pickles"
+  },
+  {
+    "id": "7a",
+    "name": "Hall Monitor"
+  },
+  {
+    "id": "7b",
+    "name": "Jellyfish Jam"
+  },
+  {
+    "id": "8a",
+    "name": "Sandy's Rocket"
+  },
+  {
+    "id": "8b",
+    "name": "Squeaky Boots"
+  },
+  {
+    "id": "9a",
+    "name": "Nature Pants"
+  },
+  {
+    "id": "9b",
+    "name": "Opposite Day"
+  },
+  {
+    "id": "10a",
+    "name": "Culture Shock"
+  },
+  {
+    "id": "10b",
+    "name": "F.U.N."
+  },
+  {
+    "id": "11a",
+    "name": "MuscleBob BuffPants"
+  },
+  {
+    "id": "11b",
+    "name": "Squidward the Unfriendly Ghost"
+  },
+  {
+    "id": "12a",
+    "name": "The Chaperone"
+  },
+  {
+    "id": "12b",
+    "name": "Employee of the Month"
+  },
+  {
+    "id": "13a",
+    "name": "Scaredy Pants"
+  },
+  {
+    "id": "13b",
+    "name": "I Was a Teenage Gary"
+  },
+  {
+    "id": "14a",
+    "name": "SB-129"
+  },
+  {
+    "id": "14b",
+    "name": "Karate Choppers"
+  },
+  {
+    "id": "15a",
+    "name": "Sleepy Time"
+  },
+  {
+    "id": "15b",
+    "name": "Suds"
+  },
+  {
+    "id": "16a",
+    "name": "Valentine's Day"
+  },
+  {
+    "id": "16b",
+    "name": "The Paper"
+  },
+  {
+    "id": "17a",
+    "name": "Arrgh!"
+  },
+  {
+    "id": "17b",
+    "name": "Rock Bottom"
+  },
+  {
+    "id": "18a",
+    "name": "Texas"
+  },
+  {
+    "id": "18b",
+    "name": "Walking Small"
+  },
+  {
+    "id": "19a",
+    "name": "Fools in April"
+  },
+  {
+    "id": "19b",
+    "name": "Neptune's Spatula"
+  },
+  {
+    "id": "20a",
+    "name": "Hooky"
+  },
+  {
+    "id": "20b",
+    "name": "Mermaid Man and Barnacle Boy II"
+  },
+  {
+    "id": "21a",
+    "name": "Your Shoe's Untied"
+  },
+  {
+    "id": "21b",
+    "name": "Squid's Day Off"
+  },
+  {
+    "id": "22a",
+    "name": "Something Smells"
+  },
+  {
+    "id": "22b",
+    "name": "Bossy Boots"
+  },
+  {
+    "id": "23a",
+    "name": "Big Pink Loser"
+  },
+  {
+    "id": "23b",
+    "name": "Bubble Buddy"
+  },
+  {
+    "id": "24a",
+    "name": "Dying for Pie"
+  },
+  {
+    "id": "24b",
+    "name": "Imitation Krabs"
+  },
+  {
+    "id": "25a",
+    "name": "Wormy"
+  },
+  {
+    "id": "25b",
+    "name": "Patty Hype"
+  },
+  {
+    "id": "26a",
+    "name": "Grandma's Kisses"
+  },
+  {
+    "id": "26b",
+    "name": "Squidville"
+  },
+  {
+    "id": "27a",
+    "name": "Prehibernation Week"
+  },
+  {
+    "id": "27b",
+    "name": "Life of Crime"
+  },
+  {
+    "id": 28,
+    "name": "Christmas Who?"
+  },
+  {
+    "id": "29a",
+    "name": "Survival of the Idiots"
+  },
+  {
+    "id": "29b",
+    "name": "Dumped"
+  },
+  {
+    "id": "30a",
+    "name": "No Free Rides"
+  },
+  {
+    "id": "30b",
+    "name": "I'm Your Biggest Fanatic"
+  },
+  {
+    "id": "31a",
+    "name": "Mermaid Man and Barnacle Boy III"
+  },
+  {
+    "id": "31b",
+    "name": "Squirrel Jokes"
+  },
+  {
+    "id": "32a",
+    "name": "Pressure"
+  },
+  {
+    "id": "32b",
+    "name": "The Smoking Peanut"
+  },
+  {
+    "id": "33a",
+    "name": "Shanghaied"
+  },
+  {
+    "id": "33b",
+    "name": "Gary Takes a Bath"
+  },
+  {
+    "id": "34a",
+    "name": "Welcome to the Chum Bucket"
+  },
+  {
+    "id": "34b",
+    "name": "Frankendoodle"
+  },
+  {
+    "id": "35a",
+    "name": "The Secret Box"
+  },
+  {
+    "id": "35b",
+    "name": "Band Geeks"
+  },
+  {
+    "id": "36a",
+    "name": "Graveyard Shift"
+  },
+  {
+    "id": "36b",
+    "name": "Krusty Love"
+  },
+  {
+    "id": "37a",
+    "name": "Procrastination"
+  },
+  {
+    "id": "37b",
+    "name": "I'm With Stupid"
+  },
+  {
+    "id": "38a",
+    "name": "Sailor Mouth"
+  },
+  {
+    "id": "38b",
+    "name": "Artist Unknown"
+  },
+  {
+    "id": "39a",
+    "name": "Jellyfish Hunter"
+  },
+  {
+    "id": "39b",
+    "name": "The Fry Cook Games"
+  },
+  {
+    "id": "40a",
+    "name": "Squid on Strike"
+  },
+  {
+    "id": "40b",
+    "name": "Sandy, SpongeBob, and the Worm"
+  },
+  {
+    "id": "41a",
+    "name": "The Algae's Always Greener"
+  },
+  {
+    "id": "41b",
+    "name": "SpongeGuard on Duty"
+  },
+  {
+    "id": "42a",
+    "name": "Club SpongeBob"
+  },
+  {
+    "id": "42b",
+    "name": "My Pretty Seahorse"
+  },
+  {
+    "id": "43a",
+    "name": "Just One Bite"
+  },
+  {
+    "id": "43b",
+    "name": "The Bully"
+  },
+  {
+    "id": "44a",
+    "name": "Nasty Patty"
+  },
+  {
+    "id": "44b",
+    "name": "Idiot Box"
+  },
+  {
+    "id": "45a",
+    "name": "Mermaid Man and Barnacle Boy IV"
+  },
+  {
+    "id": "45b",
+    "name": "Doing Time"
+  },
+  {
+    "id": "46a",
+    "name": "Snowball Effect"
+  },
+  {
+    "id": "46b",
+    "name": "One Krabs Trash"
+  },
+  {
+    "id": "47a",
+    "name": "As Seen on TV"
+  },
+  {
+    "id": "47b",
+    "name": "Can You Spare a Dime?"
+  },
+  {
+    "id": "48a",
+    "name": "No Weenies Allowed"
+  },
+  {
+    "id": "48b",
+    "name": "Squilliam Returns"
+  },
+  {
+    "id": "49a",
+    "name": "Krab Borg"
+  },
+  {
+    "id": "49b",
+    "name": "Rock-a-Bye Bivalve"
+  },
+  {
+    "id": "50a",
+    "name": "Wet Painters"
+  },
+  {
+    "id": "50b",
+    "name": "Krusty Krab Training Video"
+  },
+  {
+    "id": 51,
+    "name": "Party Pooper Pants"
+  },
+  {
+    "id": "52a",
+    "name": "Chocolate with Nuts"
+  },
+  {
+    "id": "52b",
+    "name": "Mermaid Man and Barnacle Boy V"
+  },
+  {
+    "id": "53a",
+    "name": "New Student Starfish"
+  },
+  {
+    "id": "53b",
+    "name": "Clams"
+  },
+  {
+    "id": 54,
+    "name": "Ugh"
+  },
+  {
+    "id": "55a",
+    "name": "The Great Snail Race"
+  },
+  {
+    "id": "55b",
+    "name": "Mid-Life Crustacean"
+  },
+  {
+    "id": "56a",
+    "name": "Born Again Krabs"
+  },
+  {
+    "id": "56b",
+    "name": "I Had an Accident"
+  },
+  {
+    "id": "57a",
+    "name": "Krabby Land"
+  },
+  {
+    "id": "57b",
+    "name": "The Camping Episode"
+  },
+  {
+    "id": "58a",
+    "name": "Missing Identity"
+  },
+  {
+    "id": "58b",
+    "name": "Plankton's Army"
+  },
+  {
+    "id": 59,
+    "name": "The Sponge Who Could Fly"
+  },
+  {
+    "id": "60a",
+    "name": "SpongeBob Meets the Strangler"
+  },
+  {
+    "id": "60b",
+    "name": "Pranks a Lot"
+  }
+]
