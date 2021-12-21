@@ -313,49 +313,62 @@ button.disabled:hover {
 <script>
 'use strict';
 
-var items = [
-    // Define your items here
-];
+(async  () => {
+    var response = await fetch('./episodes.json');
+    var items = await response.json();
+    items.forEach(item => {
+        item.image = './thumbnails/' + item.id + '.png';
+        var extra = 0;
+        if (item.id.indexOf('b') != -1) {
+            extra = 1;
+        } else if (item.id.indexOf('c') != -1) {
+            extra = 2;
+        }
+        item.shortcode = new Number(parseInt(item.id) * 3 + extra).toString(36).padStart(2, '0');
+    });
 
-var myPicker = new picker.Picker({
-    items: items
-});
+    var myPicker = new picker.Picker({
+        items: items,
+        shortcodeLength: 2,
+        localStorageKey: 'picker-state'
+    });
 
-var pickerUI = new PickerUI(myPicker, {
-    elements: {
-        pick: "#pick",
-        pass: "#pass",
-        undo: "#undo",
-        redo: "#redo",
-        evaluating: "#evaluating",
-        favorites: "#favorites",
-        shortcodeLink: "#shortcode-link",
-        sharedListContainer: "#shared-list-modal",
-        sharedList: "#shared-list",
-        sharedListContinue: "#shared-list-continue",
-        sharedListSkip: ".shared-list-skip"
-    }
-});
+    var pickerUI = new PickerUI(myPicker, {
+        elements: {
+            pick: "#pick",
+            pass: "#pass",
+            undo: "#undo",
+            redo: "#redo",
+            evaluating: "#evaluating",
+            favorites: "#favorites",
+            shortcodeLink: "#shortcode-link",
+            sharedListContainer: "#shared-list-modal",
+            sharedList: "#shared-list",
+            sharedListContinue: "#shared-list-continue",
+            sharedListSkip: ".shared-list-skip"
+        }
+    });
 
-pickerUI.initialize();
+    pickerUI.initialize();
 
-/* Sortable favorites - you can safely remove this, and the Sortable.min.js script, if you don't want to be able to sort your favorite list. */
-var sortable = new Sortable(pickerUI.elem.favorites.get(0), {
-    draggable: '.item',
-    animation: 100,
-    onStart: function() {
-        pickerUI.elem.favorites.addClass("sorting");
-    },
-    onEnd: function() {
-        pickerUI.elem.favorites.removeClass("sorting");
-    },
-    onUpdate: function() {
-        myPicker.setFavorites(pickerUI.elem.favorites.children().map(function() {
-            return pickerUI.getItem(this);
-        }).get());
-        pickerUI.update(true);
-    }
-});
+    /* Sortable favorites - you can safely remove this, and the Sortable.min.js script, if you don't want to be able to sort your favorite list. */
+    var sortable = new Sortable(pickerUI.elem.favorites.get(0), {
+        draggable: '.item',
+        animation: 100,
+        onStart: function() {
+            pickerUI.elem.favorites.addClass("sorting");
+        },
+        onEnd: function() {
+            pickerUI.elem.favorites.removeClass("sorting");
+        },
+        onUpdate: function() {
+            myPicker.setFavorites(pickerUI.elem.favorites.children().map(function() {
+                return pickerUI.getItem(this);
+            }).get());
+            pickerUI.update(true);
+        }
+    });
+})();
 /* End sortable favorites */
 </script>
 </body>
