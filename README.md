@@ -16,5 +16,4 @@ You can share your results with others by sending the link at the bottom of the 
 
 There is no way to get back your original list if you continue another list, reset your list, or clear your local browser storage.
 
-Gold T
-
+Gold Team Rules!
